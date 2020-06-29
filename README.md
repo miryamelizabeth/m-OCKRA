@@ -24,9 +24,11 @@ class m-OCKRA(classifier_count=50, bootstrap_sample_percent=0.4, mros_percent=0.
 ### Parameters
 
  - **classifier_count : int, default=50**
+
 Number of classifiers in the ensemble.
 
 - **bootstrap_sample_percent : float, default=0.4**
+
 The fraction of training dataset to bootstrap (a number between 0  and 1).
 
 - **mros_percent : float, default=0.4**
