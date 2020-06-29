@@ -149,8 +149,8 @@ Class labels for samples in *X*.
 
 
 ## Other Links
- 1. [Filter Feature Selection for One-Class Classification] (https://link.springer.com/article/10.1007/s10846-014-0101-2)
- 2. [Bagging-RandomMiner: A one-class classifier for file access-based masquerade detection] (https://link.springer.com/article/10.1007%2Fs00138-018-0957-4)
- 3. OCKRA Python source code developed by the article "m-OCKRA: An Efficient One-Class Classifier..." : [HERE] (https://github.com/Miel15/OCKRA-classifier) 
- 4. Filter Feature Selection Matlab source provided by the authors: [HERE] (https://github.com/LuizHNLorena/FilterFeatureOneClass)
- 5. Bagging-RandomMiner Python source code provided by the authors: [HERE] (https://github.com/octavioloyola/BRM)
+ 1. [Filter Feature Selection for One-Class Classification](https://link.springer.com/article/10.1007/s10846-014-0101-2)
+ 2. [Bagging-RandomMiner: A one-class classifier for file access-based masquerade detection](https://link.springer.com/article/10.1007%2Fs00138-018-0957-4)
+ 3. OCKRA Python source code developed by the article "m-OCKRA: An Efficient One-Class Classifier..." : [HERE](https://github.com/Miel15/OCKRA-classifier) 
+ 4. Filter Feature Selection Matlab source provided by the authors: [HERE](https://github.com/LuizHNLorena/FilterFeatureOneClass)
+ 5. Bagging-RandomMiner Python source code provided by the authors: [HERE](https://github.com/octavioloyola/BRM)
