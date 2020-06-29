@@ -24,11 +24,9 @@ class m-OCKRA(classifier_count=50, bootstrap_sample_percent=0.4, mros_percent=0.
 ### Parameters
 
  - **classifier_count : int, default=50**
-
 Number of classifiers in the ensemble.
 
 - **bootstrap_sample_percent : float, default=0.4**
-
 The fraction of training dataset to bootstrap (a number between 0  and 1).
 
 - **mros_percent : float, default=0.4**
@@ -149,3 +147,10 @@ Class labels for samples in *X*.
  3. *For more information about OCKRA, please read:*
 	J. Rodríguez, A. Barrera-Animas, L. Trejo, M. Medina-Pérez and R. Monroy, ["Ensemble of one-class classifiers for personal risk detection based on wearable sensor data"](https://www.mdpi.com/1424-8220/16/10/1619), _Sensors_, vol. 16, no. 10, pp. 1619, Sep. 2016.
 
+
+## Other Links
+ 1. [Filter Feature Selection for One-Class Classification] (https://link.springer.com/article/10.1007/s10846-014-0101-2)
+ 2. [Bagging-RandomMiner: A one-class classifier for file access-based masquerade detection] (https://link.springer.com/article/10.1007%2Fs00138-018-0957-4)
+ 3. OCKRA Python source code developed by the article "m-OCKRA: An Efficient One-Class Classifier..." : [HERE] (https://github.com/Miel15/OCKRA-classifier) 
+ 4. Filter Feature Selection Matlab source provided by the authors: [HERE] (https://github.com/LuizHNLorena/FilterFeatureOneClass)
+ 5. Bagging-RandomMiner Python source code provided by the authors: [HERE] (https://github.com/octavioloyola/BRM)
