@@ -82,8 +82,8 @@ Raw scoring function of the samples. Compute the similarity value.
 The data array.
 
 **Return**
-- **y_pred: *ndarray* of shape (n_samples, )**
-Class labels for samples in *X*.
+- **score_samples: *ndarray* of shape (n_samples, )**
+Returns the scoring function of the samples (i.e. the similarity value).
 
 
 ## Algorithm
@@ -110,9 +110,9 @@ Class labels for samples in *X*.
 	        1. *SelectedFeatures*  ← RandomWeightedAttributes(*T*)
 	        2. *T'* ← Project(*T*, *SelectedFeatures*)
 	        3. *X* ← Bootstrap(*F*, *T'*)
-          4. *MROs*  ← SampleWithoutReplacement(*RS<sub>%</sub>*, *X*)
-	        4. *δ<sub>i</sub>* ← SumAttributesWeights(*W*, *SelectedFeatures*)
-	        5. *P* ← *P* U { (*SelectedFeatures*, *Centres*, *δ<sub>i</sub>* ) }
+		4. *MROs*  ← SampleWithoutReplacement(*RS<sub>%</sub>*, *X*)
+	        5. *δ<sub>i</sub>* ← SumAttributesWeights(*W*, *SelectedFeatures*)
+	        6. *P* ← *P* U { (*SelectedFeatures*, *MROs*, *δ<sub>i</sub>* ) }
         3. **end for**
         4. **return** *P*
 
@@ -152,5 +152,5 @@ Class labels for samples in *X*.
  1. [Filter Feature Selection for One-Class Classification](https://link.springer.com/article/10.1007/s10846-014-0101-2)
  2. [Bagging-RandomMiner: A one-class classifier for file access-based masquerade detection](https://link.springer.com/article/10.1007%2Fs00138-018-0957-4)
  3. OCKRA Python source code developed by the article "m-OCKRA: An Efficient One-Class Classifier..." : [HERE](https://github.com/Miel15/OCKRA-classifier) 
- 4. Filter Feature Selection Matlab source provided by the authors: [HERE](https://github.com/LuizHNLorena/FilterFeatureOneClass)
+ 4. Filter Feature Selection Matlab source code provided by the authors: [HERE](https://github.com/LuizHNLorena/FilterFeatureOneClass)
  5. Bagging-RandomMiner Python source code provided by the authors: [HERE](https://github.com/octavioloyola/BRM)
