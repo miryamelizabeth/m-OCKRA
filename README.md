@@ -110,7 +110,7 @@ Returns the scoring function of the samples (i.e. the similarity value).
 	        1. *SelectedFeatures*  ← RandomWeightedAttributes(*T*)
 	        2. *T'* ← Project(*T*, *SelectedFeatures*)
 	        3. *X* ← Bootstrap(*F*, *T'*)
-		4. *MROs*  ← SampleWithoutReplacement(*RS<sub>%</sub>*, *X*)
+	        4. *MROs*  ← SampleWithoutReplacement(*RS<sub>%</sub>*, *X*)
 	        5. *δ<sub>i</sub>* ← SumAttributesWeights(*W*, *SelectedFeatures*)
 	        6. *P* ← *P* U { (*SelectedFeatures*, *MROs*, *δ<sub>i</sub>* ) }
         3. **end for**
